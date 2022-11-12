@@ -1,5 +1,7 @@
+/* Fuente Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Cuerpo de la página */
 body {
     background-color: black;
     color: white;
@@ -12,67 +14,13 @@ body {
     grid-template-rows: 2fr 0.5fr 3fr 0.5fr 3fr;
 }
 
-.container {
-    /* background-color: red; */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.tittle {
-    display: flex;
-    align-self: flex-end;
-    font-size: 3vh;
-    margin-left: 5vh;
-    margin-right: 5vh;
-}
-
-#bold {
-    font-weight: bold;
-}
-
-.serie {
-    margin-left: 1vh;
-    margin-right: 1vh;
-    padding: 1vh;
-}
-
-.serie img{
-    max-width: 100%;
-}
-
-#logo {
-    width: 10vw;
-}
-
-#present, #bell {
-    height: 2em;
-    width: 2em;
-}
-
-#glass {
-    height: 3em;
-    width: 3em;
-}
-
-#avatar {
-    height: 3em;
-    width: 3em;
-}
-
-/* #haha {
-    margin-left: 4vh;
-}
-
-#hehe {
-    margin-right: 4vh;
-} */
-
+/* Encabezado */
 .header {
     display: flex;
     grid-column: 1 / 6;
 }
 
+/* Encabezado Derecha */
 .right {
     display: flex;
     width: 40vw;
@@ -80,22 +28,67 @@ body {
     align-items: center;
 }
 
+/* Iconos Encabezado Derecha */
 .right img {
     margin-left: 3vh;
     margin-right: 3vh;
 }
 
+/* Encabezado izquierda */
 .left {
     display: flex;
     width: 60vw;
     align-items: center;
 }
 
+/* Texto Iconos Encabezado izquierda */
 .left img, p{
     margin-left: 3vh;
     margin-right: 3vh;
 }
 
+/* Logo Netflix */
+#logo {
+    width: 10vw;
+}
+
+/* Iconos regalo campana */
+#present, #bell {
+    height: 2em;
+    width: 2em;
+}
+
+/* Icono lupa */
+#glass {
+    height: 3em;
+    width: 3em;
+}
+
+/* Icono usuario */
+#avatar {
+    height: 3em;
+    width: 3em;
+}
+
+/* Div título de sección */
 .tittle {
     grid-column: 1/6;
+    display: flex;
+    align-self: flex-end;
+    font-size: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-weight: bold;
+}
+
+/*Div series*/
+.serie {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding: 1vh;
+}
+
+/* Imagen Serie */
+.serie img{
+    max-width: 100%;
 }
