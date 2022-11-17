@@ -1,0 +1,29 @@
+/* Fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.logo {
+    width: 200px;
+}
+
+i {
+    height: 1em;
+    width: 1em;
+    font-size: xx-large;
+}
+
+.avatar {
+    height: 3em;
+    width: 3em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.serie {
+    width: 240px;
+}
